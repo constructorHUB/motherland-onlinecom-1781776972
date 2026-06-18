@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="./index.js"></script>
+    <script src="./common.js"></script>
+
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1781776184-logo.svg" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>Motherland Online Casino | Official Casino Information</title>
+    <meta name="description"
+          content="Discover Motherland, our online casino brand focused on clear information, user confidence, and a positive guest-oriented experience.">
+    <link rel="canonical" href="https://motherland-online.com">
+    <meta property="og:title" content="Motherland Online Casino | Official Casino Information">
+    <meta property="og:description"
+          content="Discover Motherland, our online casino brand focused on clear information, user confidence, and a positive guest-oriented experience.">
+    <meta property="og:url" content="https://motherland-online.com">
+    <meta property="og:site_name" content="Motherland Online Casino | Official Casino Information">
+    <meta property="og:locale" content="en-GB">
+    <meta property="og:image" content="_assets/images/1781776173-main.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="motherland-online.com">
+    <meta name="twitter:title" content="Motherland Online Casino | Official Casino Information">
+    <meta name="twitter:description"
+          content="Discover Motherland, our online casino brand focused on clear information, user confidence, and a positive guest-oriented experience.">
+    <meta name="twitter:image" content="_assets/images/1781776173-main.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1781776179-favicon.svg" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="en-GB">
+    <link rel="apple-touch-icon" href="_assets/images/1781776168-favicon.svg" sizes="96x96">
+    <link rel="icon" href="_assets/images/1781776168-favicon.svg" type="image/webp" sizes="192x192">
+
+    <link rel="preload" href="_assets/images/1781776203-main.webp" as="image" fetchpriority="high">
+
+</head>
+
+<body>
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="minus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#292929"
+                d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 32 32"
+>
+    <symbol id="globe-icon" viewBox="0 0 32 32">
+        <path
+                fill="#ffffff"
+                d="M32.032 16c0-8.501-6.677-15.472-15.072-15.969-0.173-0.019-0.346-0.032-0.523-0.032-0.052 0-0.104 0.005-0.156 0.007-0.093-0.002-0.186-0.007-0.281-0.007-8.84 0-16.032 7.178-16.032 16.001s7.192 16.001 16.032 16.001c0.094 0 0.188-0.006 0.281-0.008 0.052 0.002 0.104 0.008 0.156 0.008 0.176 0 0.349-0.012 0.523-0.032 8.395-0.497 15.072-7.468 15.072-15.969zM29.049 21.151c-0.551-0.16-1.935-0.507-4.377-0.794 0.202-1.381 0.313-2.84 0.313-4.357 0-1.196-0.069-2.354-0.197-3.469 3.094-0.37 4.45-0.835 4.54-0.867l-0.372-1.050c0.695 1.659 1.080 3.478 1.080 5.386 0 1.818-0.352 3.555-0.987 5.151zM8.921 16c0-1.119 0.074-2.212 0.21-3.263 1.621 0.127 3.561 0.222 5.839 0.243v6.939c-2.219 0.021-4.114 0.111-5.709 0.234-0.22-1.319-0.34-2.715-0.34-4.154zM16.967 2.132c2.452 0.711 4.552 4.115 5.492 8.628-1.512 0.12-3.332 0.209-5.492 0.229v-8.857zM14.971 2.156v8.832c-2.136-0.021-3.965-0.109-5.502-0.226 0.96-4.457 3.076-7.836 5.502-8.606zM14.971 21.913l0 7.929c-2.263-0.718-4.256-3.705-5.293-7.719 1.492-0.11 3.253-0.189 5.292-0.21zM16.967 29.868l-0-7.955c2.061 0.020 3.814 0.102 5.288 0.217-1.019 4.067-3 7.076-5.288 7.738zM16.967 19.92l0-6.939c2.291-0.021 4.218-0.118 5.818-0.25 0.131 1.053 0.203 2.147 0.203 3.268 0 1.442-0.116 2.84-0.329 4.16-1.575-0.128-3.462-0.219-5.692-0.24zM28.588 9.81c-0.302 0.094-1.564 0.453-4.094 0.751-0.564-2.998-1.584-5.561-2.91-7.412 3.048 1.325 5.535 3.697 7.005 6.661zM11.213 2.831c-1.632 1.873-2.963 4.568-3.691 7.754-2.265-0.245-3.623-0.534-4.166-0.665 1.585-3.27 4.407-5.836 7.856-7.088zM2.614 11.787c0.385 0.104 1.841 0.467 4.549 0.766-0.155 1.107-0.24 2.26-0.24 3.447 0 1.509 0.136 2.96 0.383 4.334-2.325 0.251-3.755 0.552-4.396 0.706-0.607-1.566-0.944-3.264-0.944-5.041 0-1.467 0.228-2.883 0.649-4.213zM3.784 22.886c0.727-0.154 2.029-0.39 3.956-0.591 0.759 2.803 1.993 5.175 3.473 6.874-3.16-1.148-5.79-3.398-7.429-6.282v0zM21.583 28.849c1.195-1.665 2.14-3.907 2.728-6.525 1.982 0.227 3.226 0.494 3.853 0.652-1.5 2.596-3.808 4.669-6.581 5.873z">
+        </path>
+    </symbol>
+</svg>
+
+<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="star-icon" viewBox="0 0 32 31">
+        <path d="M10.0431 24.5932L15.8898 21.0667L21.7365 24.6396L20.2052 17.9577L25.3559 13.5031L18.5811 12.8999L15.8898 6.58913L13.1985 12.8535L6.42371 13.4567L11.5744 17.9577L10.0431 24.5932ZM15.8898 25.4285L8.187 30.0687C7.84672 30.2853 7.49096 30.3781 7.11975 30.3471C6.74853 30.3162 6.42371 30.1925 6.1453 29.9759C5.86688 29.7594 5.65034 29.489 5.49566 29.1648C5.34099 28.8406 5.31005 28.4768 5.40286 28.0734L7.44456 19.3034L0.623417 13.4103C0.314068 13.1319 0.121034 12.8145 0.0443157 12.4581C-0.0324028 12.1017 -0.00951111 11.754 0.112991 11.415C0.235493 11.0759 0.421103 10.7975 0.669819 10.5797C0.918536 10.362 1.25882 10.2227 1.69067 10.1621L10.6927 9.37327L14.1729 1.11366C14.3276 0.742438 14.5676 0.464023 14.8931 0.278414C15.2185 0.0928044 15.5507 0 15.8898 0C16.2288 0 16.5611 0.0928044 16.8865 0.278414C17.2119 0.464023 17.452 0.742438 17.6067 1.11366L21.0869 9.37327L30.0889 10.1621C30.522 10.224 30.8623 10.3632 31.1098 10.5797C31.3572 10.7963 31.5428 11.0747 31.6666 11.415C31.7903 11.7553 31.8138 12.1036 31.7371 12.46C31.6604 12.8163 31.4667 13.1331 31.1562 13.4103L24.335 19.3034L26.3767 28.0734C26.4695 28.4756 26.4386 28.8394 26.2839 29.1648C26.1292 29.4902 25.9127 29.7606 25.6343 29.9759C25.3559 30.1912 25.0311 30.315 24.6598 30.3471C24.2886 30.3793 23.9329 30.2865 23.5926 30.0687L15.8898 25.4285Z" fill="#ffffff"/>
+    </symbol>
+</svg>
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="plus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#292929"
+                d="M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="33"
+        height="32"
+        viewBox="0 0 33 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="play-icon" viewBox="0 0 33 32">
+        <path
+                d="M16.8334 0.0786133C7.9606 0.0786133 0.767578 7.20678 0.767578 15.9998C0.767578 24.7929 7.9606 31.921 16.8334 31.921C25.7061 31.921 32.8992 24.7929 32.8992 15.9998C32.8992 7.20678 25.7061 0.0786133 16.8334 0.0786133ZM22.3861 16.8438L14.3532 21.8192C14.1907 21.9197 14.0059 21.9703 13.821 21.9703C13.6536 21.9703 13.4859 21.929 13.3342 21.8454C13.015 21.67 12.8169 21.3372 12.8169 20.9752V11.0244C12.8169 10.6625 13.015 10.3296 13.3342 10.1543C13.6533 9.97788 14.0436 9.98857 14.3532 10.1805L22.3861 15.1559C22.6796 15.3381 22.858 15.6568 22.858 15.9998C22.858 16.3428 22.6796 16.6616 22.3861 16.8438Z"
+                fill="#ffffff"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="information-outline" viewBox="0 0 20 20">
+        <path
+                d="M9 7H11V5H9V7ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM9 15H11V9H9V15Z"
+                fill="#ffffff"
+        />
+    </symbol>
+</svg>
+
+<div class="wrapper">
+
+    <header class="header" id="top">
+        <div class="headerBlock">
+
+            <!-- Logo -->
+            <div class="headerLogoContainer">
+                <a href="https://motherland-online.com" aria-label="Main page">
+                    <img
+                            class="header__logo logo"
+                            src="_assets/images/1781776184-logo.svg"
+                            alt="Motherland"
+                    />
+                </a>
+            </div>
+
+            <div class="navBlockMain">
+
+            <!-- Main Navigation -->
+            <nav>
+                <button class="hamburger" aria-label="Toggle navigation menu">
+                    <span></span>
+                </button>
+
+                <ul class="nav__list nav__list--header">
+
+                    <li><a href="index">index</a></li>
+                    <li><a href="app">App</a></li>
+                    <li><a href="bonuses">Bonuses</a></li>
+                    <li><a href="terms">Terms</a></li>
+                    <li><a href="privacy">Privacy</a></li>
+                    <li><a href="faq">FAQ</a></li>
+
+                </ul>
+            </nav>
+                <!-- CTA buttons -->
+                <div class="btn__list">
+<!--                    <div class="nav__item">-->
+<!--                        <a-->
+<!--                                class="nav__link"-->
+<!--                                target="_blank"-->
+<!--                                href="casino.html?id=example-offer-id"-->
+<!--                                aria-label=""-->
+<!--                                id="navSignUp"-->
+<!--                        >-->
+<!--                            -->
+<!--                        </a>-->
+<!--                    </div>-->
+
+                    <div class="nav__item nav__itemLarge">
+                        <a
+                                class="nav__link nav__linkLarge"
+                                target="_blank"
+                                href="casino.html?id=example-offer-id"
+                                aria-label="Play Now"
+                                id="navPlayNow"
+                        >
+                            Play Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <section class="heroContainer">
+            <div class="hero">
+                <div class="heroBlock block">
+                    <div class="heroGroup">
+                        <div class="heroTextGroup">
+                            <p class="heroText heroTextDesktop">Exclusive welcome offer of</p>
+                            <p class="heroText heroTextMobile">Exclusive welcome bonus of</p>
+                            <p class="heroText heroTextBonus" id="bonusText"></p>
+                        </div><a target="_blank" class="heroLink" id="bonusLink" href="/" aria-label="Play game"><span
+                            class="heroButton btn btn--large">Claim Bonus</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="heroUnder">
+                <h1 class="heroText heroMainTitle">Motherland Online Casino Official Home Page for Clear Casino Information</h1>
+            </div>
+        </section>
+        <div class="bonusesCircleContainer">
+            <section class="topCasino">
+                <div class="container">
+                    <div class="topCasinoBlock block">
+                        <h2 class="topCasinoTitle title"><span>Top Casinos <span id="countryName"></span></span>
+                        </h2>
+                        <div class="topCasinoGroup" id="casinoCardContainer">
+                            <!-- Casino cards will be dynamically inserted here --></div><button
+                            class="topCasinoButton btn btn--large" id="showMoreButton"> All Casino </button>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <div class="advantagesCircleContainer">
+            <section class="advantages">
+                <div class="container">
+                    <div class="advantagesBlock block">
+                        <div class="advantagesDescription">
+                            <h2 class="advantagesTitle title">Advantages</h2>
+                            <ul class="advantagesList">
+                                <li class="providersGroup"></li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Clear identity</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">User-focused structure</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Simple navigation</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Analytical presentation</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Positive tone</p>
+                                </li>
+                                <li class="providersGroup"></li>
+                            </ul><a class="advantagesLink" id="advantagesLink" target="_blank" href="/" aria-label="Know more"><span
+                                class="advantagesButton btn btn--large">Know more</span></a>
+                        </div>
+                        <div class="advantagesMobile">
+                            <h2 class="advantagesTitle title advantagesAppTitle">Motherland Mobile App</h2><img
+                                class="advantagesMobilePhone" src="_assets/images/1781776602-mobile.webp" title="Motherland Mobile"
+                                alt="Motherland Mobile App" />
+                            <div class="advantagesStoreGroup"><a href="/" id="appStoreLink" aria-label="Play game"
+                                                                 target="_blank"><img class="advantagesStore" width="181" height="53"
+                                                                                      src="./assets/images/advantages/app-store.webp" alt="iOs App " title="Motherland Mobile App"/></a><a
+                                    href="/" id="googlePlayLink" aria-label="Play game" target="_blank"><img
+                                    class="advantagesStore" width="181" height="54"
+                                    src="./assets/images/advantages/google-play.webp" alt="android App Motherland Mobile App" title="Motherland Mobile App" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="games" id="games">
+                <div class="container">
+                    <div class="gamesBlock block">
+                        <h2 class="gamesTitle title"><span>Popular Games</span></h2>
+                        <div class="gamesGroup" id="gamesContainer"><!-- Games will be dynamically inserted here -->
+                        </div><a target="_blank" class="gamesLink" id="allGamesLink" href="/" aria-label="All Games"><span
+                            class="gamesButton btn btn--large">All Games</span></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">About the Casino</h2>
+                        <div class="historyGroup">
+                            <div class="historyColumn">
+                                <div class="historyText">
+                                    <p class="historyDescription">At Motherland, we present our online casino brand with clarity, confidence, and a strong focus on our guests. Our approach is built around simple communication, structured information, and a positive experience from the first interaction with our casino name.</p>
+                                    <ul class="historyList">
+                                        <li class="historyItem">Motherland is the provided casino brand name.</li>
+                                        <li class="historyItem">Key pages include App, Bonuses, Privase, Terms, and FQA.</li>
+                                    </ul>
+                                    <p class="historyDescription">Our online casino content is designed to help guests understand key pages without unnecessary complexity. We focus on making every section purposeful, easy to read, and aligned with the needs of users who want direct and reliable information.</p>
+                                </div>
+                            </div>
+                            <div class="historyColumn"><img class="historyImage"
+                                                            src="_assets/images/1781776631-desktop.webp" alt="Motherland " title="Motherland Desktop"/></div>
+                        </div>
+                        <p class="historyDescription">We use the Motherland brand name consistently across our main online casino pages, including the home page, app page, bonuses page, privase page, terms page, and FQA page. This helps our guests recognize our casino identity and move through our information with confidence.
+
+Our online casino communication style is confident, analytical, and guest-oriented. We aim to present information in a way that supports trust, clarity, and a positive brand impression while staying focused only on provided details.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Motherland Casino: Online Gaming Energy, Rewards and 24/7 Entertainment</h2>
+                        <div class="historyDescription">
+<p>
+Motherland Casino is our modern online casino built for players who want fast access to slots, live casino, crash games, table games, jackpots and promotions from one account. We create the feeling of a digital casino club where more than 2,500 games, mobile play, secure banking, VIP rewards and support tools work together in one smooth experience. Our style is energetic, clear and player-focused: players can start with Starburst or Book of Dead, move to live roulette, open blackjack, try crash games or explore jackpot titles. Because Motherland Casino operates online, the main gaming areas are available 24/7, while tournaments, cashback, reload bonuses and seasonal campaigns follow the schedule of each active promotion. Our leisure format is built around digital lounge zones such as the live casino, slots lobby, jackpot area, crash games section, mobile casino, promotions hub and VIP rewards. Instead of land-based bars or hotel facilities, we deliver a flexible online environment that can be enjoyed from a phone, tablet or desktop. New players can begin with a welcome bonus of 100% up to CAD 1,000 plus 200 Free Spins on Starburst from a qualifying deposit of CAD 20. Returning players can enjoy weekly reload offers of 50% up to CAD 500 on Fridays, 10% weekly cashback on net losses and VIP rewards. We support fast payouts, mobile-first access, credit and debit cards, Interac e-Transfer, bank transfers and crypto payments including Bitcoin. Motherland Casino is designed for players who want variety, speed, bonuses, live entertainment and a clear gaming journey in one place.
+</p>
+<br>
+<div style="width:100%; max-width:100%; overflow:hidden;">
+  <table style="width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;">
+    <tr>
+      <th style="width:38%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+        Motherland Casino Zone
+      </th>
+      <th style="width:31%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+        Days
+      </th>
+      <th style="width:31%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+        Hours
+      </th>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Slots Lobby: slots, video slots and jackpot games</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Daily</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">24/7</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Live Casino: roulette, blackjack, baccarat and live tables</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Daily</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">24/7, according to live provider schedule</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Crash Games and fast-play formats</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Daily</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">24/7</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Promotions Hub: welcome, reload, cashback and free spins</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Daily or campaign-based</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">According to active promotion terms</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">VIP Rewards and Cashier</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Daily</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">24/7, with processing times based on payment method</td>
+    </tr>
+  </table>
+</div>
+<br>
+<h3 style = "font-weight: bold;font-size: 32px;">
+Motherland Casino Support, Languages, Currency, Payments and Withdrawals
+</h3>
+<p>
+At Motherland Casino, we make support part of the player experience because clear guidance matters from registration to withdrawal. Our support team is available 24/7 and helps with account access, bonus activation, deposits, KYC verification, payment status, live casino questions and responsible gaming tools. Players can contact us through live chat, email and phone support, depending on the type of request. The main service languages are English and French, while the platform interface keeps Cashier, Bonuses, Promotions, VIP, My Account and Responsible Gambling easy to navigate. We keep communication direct, positive and practical so players receive useful steps instead of confusing instructions.
+</p>
+<p>
+The main account currency at Motherland Casino is CAD, which keeps balances, deposits, withdrawals, bonuses and bet values clear inside the account. The minimum deposit starts from CAD 20, while bonus activation follows the conditions of the selected offer. The Cashier supports flexible payment options such as credit and debit cards, Visa, Mastercard, Interac e-Transfer, bank transfer, e-wallets and cryptocurrency payments including Bitcoin. We use secure transaction processing so players can focus on slots, live casino, crash games, jackpots and promotions. Payment availability is always displayed inside the player account before a transaction is confirmed.
+</p>
+<p>
+Because Motherland Casino operates online, financial activity is handled through the digital Cashier rather than physical ATMs or in-person exchange desks. Players can open the Cashier, choose an available payment method, enter the amount and confirm the transaction. Many deposit methods are designed for fast processing, while withdrawal timing depends on the selected option. E-wallets and crypto payments are often convenient for quicker movement of funds, while bank transfers may take several business days. Transaction history, withdrawal status and available limits can be reviewed directly inside the account.
+</p>
+<p>
+Withdrawing winnings starts with a request in the Cashier: the player selects a method, enters the amount and confirms the payout. Before releasing funds, we may request KYC documents such as government-issued ID, proof of address or payment-method confirmation. Minimum withdrawal values can vary by method, including CAD 50 for e-wallets, CAD 100 for bank transfer and CAD 50 for crypto where those options are available. Tax treatment depends on the player’s personal circumstances: recreational play is generally viewed differently from professional gambling activity or income created by investing winnings. For larger cashouts, keeping transaction records and seeking individual guidance can help maintain clear personal records.
+</p>
+<br><h3 style = "font-weight: bold;font-size: 32px;">
+Motherland Casino Access Rules, Player Conditions and Online Entry
+</h3>
+<p>
+Motherland Casino operates online, so visiting our casino begins with registration or secure login to a personal account. We do not use a traditional dress code, but we maintain respectful communication across live chat, the support center and live casino areas. Players should provide accurate personal details because this information supports account security, payments, bonuses and KYC verification. One player should use one personal account, and payment methods should belong to the account holder. Before starting play, players should review the rules for the welcome bonus, reload bonus, cashback and free spins. When a bonus is active, wagering requirements, expiry periods, eligible games and maximum bet rules should be followed. Motherland Casino supports responsible gaming through tools such as limits, breaks and self-exclusion. Because the casino is online, parking and travel are replaced by quick access from a desktop, smartphone or tablet. For stable play, we recommend an updated browser, a secure connection and a strong password. All major areas, including slots, live casino, crash games, table games and the Cashier, are available from one account. We create our rules to help players enjoy a fair, confident and comfortable experience. If questions appear, support is available 24/7.
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Registration and Account Access
+</h3>
+<ul>
+            <li>• Create a personal Motherland Casino account through Sign Up.</li>
+            <li>• Enter accurate details such as email, password, name, date of birth and account currency.</li>
+            <li>• Confirm the registered email to activate the profile and access account features.</li>
+            <li>• Use only personal cards, e-wallets, bank accounts or crypto wallets.</li>
+            <li>• Complete KYC verification when requested before withdrawals or larger transactions.</li>
+            <li>• Meet the applicable legal age requirement for online gaming.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Gameplay Rules and Restrictions
+</h3>
+<ul>
+            <li>• Activate a bonus before playing the qualifying deposit.</li>
+            <li>• Follow the CAD 5 maximum bet rule during welcome bonus wagering where this condition applies.</li>
+            <li>• Do not create multiple accounts to participate in promotions.</li>
+            <li>• Do not use third-party documents, third-party payment methods or another person’s account.</li>
+            <li>• Track expiry periods for bonuses, cashback and free spins.</li>
+            <li>• Use responsible gaming tools to manage time, budget and play rhythm.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+How to Enter Motherland Casino
+</h3>
+<ul>
+            <li>• Open Motherland Casino through a supported browser on desktop or mobile.</li>
+            <li>• Select Sign Up to register or Log In to access an existing account.</li>
+            <li>• Visit the Cashier and choose an available deposit method.</li>
+            <li>• Open Slots, Live Casino, Crash Games, Table Games, Jackpots or Promotions.</li>
+            <li>• Use live chat for help with account, bonus or payment questions.</li>
+        </ul><br><h3 style = "font-weight: bold;font-size: 32px;">
+Motherland Casino VIP Program: Loyalty, Rewards and Personal Player Benefits
+</h3>
+<p>
+The Motherland Casino VIP Program is designed for players who want more value from regular activity. We connect gameplay, bonuses, cashback, reload offers, VIP perks and personal promotions into one long-term reward experience. A player begins with a standard account and can unlock more benefits through deposits, wagers, promotional participation and consistent activity. The VIP structure may include points, rewards, exclusive offers, cashback boosts and tailored bonuses. The more actively players engage with the casino, the more opportunities can appear in the Promotions area, VIP section and personal offers. Our VIP approach focuses on speed, individual service and rewarding moments. Players may receive reload bonuses, cashback deals, free spins, birthday-style rewards, tournament access and tailored offers. New players can begin with a 100% welcome bonus up to CAD 1,000 plus 200 Free Spins on Starburst, while returning players can enjoy weekly reloads of 50% up to CAD 500 and 10% weekly cashback. VIP status details are shown individually in the account because offers depend on activity, play history and current campaigns. We make loyalty easy to follow: play eligible games, use real-money wagers, join promotions and check available rewards. The Motherland Casino VIP Program helps turn regular gaming sessions into a journey with bonuses, privileges and personal recognition. Our goal is to make every active player feel that their time, choice and trust receive real value.
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+How to Join the Motherland Casino VIP Program
+</h3>
+<ul>
+            <li>• Create a Motherland Casino account and confirm the registered email.</li>
+            <li>• Complete the profile with accurate personal details.</li>
+            <li>• Make a deposit from CAD 20 or the amount required by a selected promotion.</li>
+            <li>• Play with real money in slots, live casino, table games, crash games and jackpot games.</li>
+            <li>• Participate in welcome bonuses, weekly reloads, cashback and seasonal promotions.</li>
+            <li>• Complete KYC verification when requested to access full withdrawal and VIP benefits.</li>
+            <li>• Check Promotions, the VIP area and email notifications for personal offers.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Motherland Casino VIP Status Progression
+</h3>
+<ul>
+            <li>• Starter Player — the first stage after registration, with access to the welcome bonus of 100% up to CAD 1,000 plus 200 Free Spins.</li>
+            <li>• Active Player — a regular activity stage with weekly reload offers of 50% up to CAD 500 and selected promotions.</li>
+            <li>• Cashback Player — a consistent play stage that can include 10% weekly cashback on net losses according to promotion terms.</li>
+            <li>• Priority Player — a stronger activity stage that may include faster support attention, tailored reloads and selected free spins.</li>
+            <li>• VIP Player — a personal recognition stage for loyal players, with exclusive rewards, higher-value offers, special campaigns and individual service.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Motherland Casino VIP Rewards and Benefits
+</h3>
+<ul>
+            <li>• 100% Welcome Bonus up to CAD 1,000 — a starting match bonus for the first deposit.</li>
+            <li>• 200 Free Spins on Starburst — additional opening value in a popular slot.</li>
+            <li>• Weekly Reload 50% up to CAD 500 — a recurring Friday offer for continued play.</li>
+            <li>• 10% Weekly Cashback — return on part of net losses according to campaign terms.</li>
+            <li>• VIP Rewards — personal rewards for active players.</li>
+            <li>• Exclusive Promotions — special offers available by status or invitation.</li>
+            <li>• Free Spins Deals — extra spins on selected slots.</li>
+            <li>• Cashback Boosts — enhanced cashback mechanics during VIP or seasonal campaigns.</li>
+            <li>• Faster Payout Attention — priority handling for eligible active players after requirements are met.</li>
+            <li>• Personal Offers — tailored bonuses based on player profile and activity.</li>
+        </ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="">
+            <div class="container">
+                <div class="sprovidersBlock block">
+                    <h2 class="sprovidersTitle title"> Software Providers </h2>
+                    <div class="sprovidersGroup" id="providersContainer">
+                        <!-- Provider images will be dynamically inserted here --></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Motherland Casino Bonuses, Free Spins, Cashback, Reloads and Special Offers</h2>
+                        <div class="historyDescription">
+<p>
+Motherland Casino makes bonuses part of the full gaming journey, not just a one-time registration reward. We offer welcome bonuses, free spins, weekly reloads, weekly cashback, seasonal campaigns, tournament mechanics, jackpot promotions and personal offers. New players can begin with a 100% match bonus up to CAD 1,000 plus 200 Free Spins on Starburst. The minimum deposit for the welcome offer starts from CAD 20, and activation may be completed with promo code CA1000 on the deposit screen when included in the offer terms. The welcome bonus helps players explore slots, live casino, table games, crash games and jackpot games with extra value. Returning players can use a weekly reload of 50% up to CAD 500 every Friday, adding more value to regular deposits. Weekly cashback of 10% on net losses supports a more flexible promotional cycle. Free spins promotions help players try popular slots and participate in special campaigns. Seasonal events may include bonus multipliers, cashback deals, exclusive giveaways and themed rewards. Tournament offers add a competitive format where activity in selected games can lead to prizes. We keep conditions clear, so players can review bonus value, wagering, expiry, maximum bet and eligible games before activation. Motherland Casino promotions are created so every session can begin with a fresh goal, a new reward or an extra bonus moment.
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Welcome Bonus and Starting Offers
+</h3>
+<ul>
+            <li>• 100% Welcome Bonus up to CAD 1,000 — a first-deposit match bonus designed to boost the starting balance.</li>
+            <li>• 200 Free Spins on Starburst — free spins for exploring one of the most recognisable slot titles.</li>
+            <li>• Minimum deposit CAD 20 — a practical starting threshold for activating the welcome offer.</li>
+            <li>• Promo code CA1000 — used on the deposit screen when the welcome package includes code activation.</li>
+            <li>• 35x wagering — the playthrough requirement for the welcome bonus within the stated time period.</li>
+            <li>• Maximum bet CAD 5 — the stake limit while the welcome bonus is active, where this condition applies.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Regular Bonuses and Cashback
+</h3>
+<ul>
+            <li>• Weekly Reload 50% up to CAD 500 — a recurring Friday bonus for repeat deposits.</li>
+            <li>• 10% Weekly Cashback — return on part of net losses according to promotion terms.</li>
+            <li>• Free Spins Deals — additional spins on selected slot games.</li>
+            <li>• Cashback Promotions — special periods with extra value for active players.</li>
+            <li>• Reload Campaigns — offers that support the balance between welcome rewards and VIP benefits.</li>
+            <li>• Personal Offers — tailored rewards that may depend on activity and gaming profile.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Game Events, Tournaments and Seasonal Promotions
+</h3>
+<ul>
+            <li>• Slot Tournaments — competitions on selected slots with prize positions.</li>
+            <li>• Live Casino Specials — promotions for roulette, blackjack, baccarat and live tables.</li>
+            <li>• Jackpot Promotions — special campaigns for jackpot games.</li>
+            <li>• Crash Games Events — fast-play promotions connected to dynamic game formats.</li>
+            <li>• Seasonal Bonuses — themed rewards during holiday or seasonal periods.</li>
+            <li>• Bonus Multipliers — promotional mechanics that increase reward value.</li>
+            <li>• Exclusive Giveaways — special prize draws for players participating in active campaigns.</li>
+        </ul><br>
+<h3 style = "font-weight: bold;font-size: 32px;">
+Popular Games at Motherland Casino: Slots, Live Casino, Crash Games and Jackpots
+</h3>
+<p>
+Motherland Casino is built for players who want a broad game selection and fast access to different entertainment formats. Our lobby includes more than 2,500 games, including slots, live casino, crash games, table games, jackpot games, blackjack, roulette, baccarat and poker. We work with well-known game studios such as NetEnt, Pragmatic Play, Evolution Gaming and Betsoft. Players can begin with recognisable slots such as Starburst and Book of Dead, then move to live tables or crash games. Starburst is ideal for quick spins and simple mechanics, while Book of Dead is valued for its adventure theme and bonus features. Live casino adds the feeling of a real table with dealers, streaming, real-time betting and familiar rules. Blackjack suits players who enjoy decisions and strategy, roulette appeals to fans of classic casino rhythm, and baccarat is a strong choice for fast and elegant rounds. Crash games create short, emotional sessions with quick pacing. Jackpot games add another layer of anticipation through large-prize mechanics. The same main categories are available for mobile play, making Motherland Casino convenient on desktop and smartphone. We regularly highlight popular slots, live tables, promotional games and seasonal picks. This selection helps players quickly find the format that fits their mood: relaxed spins, live dealers, tournament action or jackpot chasing.
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Popular Motherland Casino Slots
+</h3>
+<ul>
+            <li>• Starburst — a bright NetEnt slot with simple mechanics, fast rounds and welcome Free Spins.</li>
+            <li>• Book of Dead — an adventure slot with Egyptian atmosphere, free spins and expanding symbols.</li>
+            <li>• Sweet Bonanza — a colourful Pragmatic Play slot with cluster-style mechanics and multipliers.</li>
+            <li>• Gates of Olympus — a dynamic slot with tumble mechanics, multipliers and bonus features.</li>
+            <li>• Big Bass Bonanza — a popular fishing-themed series with bonus rounds and collection elements.</li>
+            <li>• Jackpot Slots — games with higher prize anticipation and jackpot-style mechanics.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Live Casino and Table Games
+</h3>
+<ul>
+            <li>• Live Roulette — classic roulette with a dealer, streaming and real-time betting.</li>
+            <li>• Live Blackjack — a dealer-led card game with player decisions.</li>
+            <li>• Live Baccarat — a fast live format with simple betting choices.</li>
+            <li>• Live Poker — a card-game format for players who enjoy table atmosphere and competition.</li>
+            <li>• Table Blackjack — a digital blackjack version for independent play.</li>
+            <li>• Digital Roulette — online roulette with fast pacing and multiple bet options.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Crash Games, Jackpots and Fast Formats
+</h3>
+<ul>
+            <li>• Crash Games — quick rounds with dynamic multipliers and instant decisions.</li>
+            <li>• Aviator-style Games — formats with a rising multiplier and cashout timing.</li>
+            <li>• Instant Win Games — short sessions with simple rules and fast results.</li>
+            <li>• Jackpot Games — titles with large-prize mechanics.</li>
+            <li>• Promotional Games — games selected for free spins, reloads or seasonal campaigns.</li>
+            <li>• Mobile Favourites — games optimised for smartphones and tablets.</li>
+        </ul><br><h3 style = "font-weight: bold;font-size: 32px;">
+Motherland Casino Betting Limits by Game Type and Casino Zone
+</h3>
+<p>
+Motherland Casino supports flexible betting ranges across slots, live casino, table games, crash games and jackpot games. Exact limits depend on the provider, selected title, account currency, table type, bonus status and current game settings. When the welcome bonus is active, players should follow the CAD 5 maximum bet rule where it applies during wagering. Current bet values are always displayed inside the selected game before the round is confirmed.
+</p>
+<br>
+<div style="width:100%; max-width:100%; overflow:hidden;">
+  <table style="width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;">
+    <tr>
+      <th style="width:38%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+        Motherland Casino Game or Zone
+      </th>
+      <th style="width:31%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+        Minimum Bet
+      </th>
+      <th style="width:31%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+        Maximum Bet
+      </th>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Classic slots</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">From CAD 0.10</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Up to CAD 50–100 per spin</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Video slots</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">From CAD 0.10–0.20</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Up to CAD 100–250 per spin</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Featured slots such as Starburst</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">From CAD 0.10</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Depends on the selected game limit</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Jackpot games</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">From CAD 0.10–0.20</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Depends on jackpot game settings</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Crash games</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">From CAD 0.10–1</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Up to CAD 1,000+ per round</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Live Roulette</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">From CAD 1</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Up to CAD 5,000+ per table</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Live Blackjack</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">From CAD 1–5</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Up to CAD 5,000+ per hand</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Active welcome bonus play</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Game minimum</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Up to CAD 5 during wagering where applicable</td>
+    </tr>
+  </table>
+</div><h3 style = "font-weight: bold;font-size: 32px;">
+Motherland Casino Events, Live Shows, Seasonal Campaigns and Regular Entertainment
+</h3>
+<p>
+Motherland Casino creates an entertainment environment where players can find daily activity that fits their preferred style: slots, live casino, crash games, jackpot titles, reload offers, cashback events and seasonal promotions. We go beyond a standard game lobby by building promotions, VIP perks, free spins, live table activity and special campaigns around the gaming experience. A player can start with a slot tournament, move to live roulette, open blackjack, check weekly cashback or activate a reload bonus. This rhythm turns Motherland Casino into a complete online space for regular gaming and entertainment.
+</p>
+<p>
+We place special focus on live casino and show-style formats. Live roulette, blackjack, baccarat and poker create the feel of a real casino table with a dealer and streaming. Game show formats add the atmosphere of a digital evening show with hosts, wheels, multipliers, bonus rounds and fast outcomes. Crash games increase the pace with short sessions where timing and decisions shape the round. Jackpot games add an emotional layer of anticipation, especially for players who enjoy large-prize mechanics.
+</p>
+<p>
+Physical nightclubs are not the foundation of our format, but Motherland Casino creates a digital alternative through 24/7 live casino, crash games, seasonal events, tournaments and promotional drops. Players can choose a relaxed slot session, strategic blackjack, a fast crash game, a live show or jackpot chasing. Friday weekly reloads, 10% cashback, welcome Free Spins and seasonal promotions keep the calendar active. We build entertainment so there is always a reason to return: a promotion, bonus, free spins, live table, tournament or VIP reward.
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Motherland Casino Entertainment Options
+</h3>
+<ul>
+            <li>• Slot Tournaments — competitions on selected slots with leaderboards and prizes.</li>
+            <li>• Live Roulette — a live dealer table with streaming and classic casino atmosphere.</li>
+            <li>• Live Blackjack — a card-game format with player decisions and real-time dealer action.</li>
+            <li>• Live Baccarat — a fast and elegant live format.</li>
+            <li>• Live Poker — live card entertainment for players who enjoy competitive table style.</li>
+            <li>• Crash Games — fast games with dynamic multipliers and short rounds.</li>
+            <li>• Jackpot Events — campaigns around jackpot games and large-prize mechanics.</li>
+            <li>• Weekly Reload Events — Friday bonus boost of 50% up to CAD 500.</li>
+            <li>• Cashback Events — 10% weekly cashback on net losses according to promotion terms.</li>
+            <li>• Free Spins Promotions — additional spins on selected slots.</li>
+            <li>• Seasonal Specials — themed promotions, multipliers, giveaways and bonus campaigns.</li>
+            <li>• VIP Rewards — personal offers, exclusive perks and individual rewards.</li>
+        </ul><br><h3 style = "font-weight: bold;font-size: 32px;">
+Motherland Casino Digital Lounges, Leisure Areas, Live Casino and Mobile Play
+</h3>
+<p>
+Motherland Casino is an online leisure space where game zones, bonuses, live casino, mobile access and fast payments come together in one account. We build the experience around digital comfort rather than physical hotel or restaurant facilities: players can open the slots lobby, live casino, crash games, Promotions, VIP area or Cashier whenever they want. This format works for a short gaming break, an evening live session, tournament-style activity or a full online entertainment session. Everything is available through mobile and desktop access, so the player chooses the place, device and pace.
+</p>
+<p>
+Our digital zones work like online lounges. The Slots Lobby is ideal for relaxed spins, popular games, jackpots and bonus features. Live Casino creates the atmosphere of a real table with dealers, streaming, chat and real-time betting. Crash Games and fast-play formats add a quicker rhythm, while the Promotions Hub helps players follow the welcome bonus, reloads, cashback, free spins and seasonal events. The Cashier Lounge brings deposits, withdrawals, crypto payments, transaction history and limits into one place.
+</p>
+<p>
+VIP Rewards and the support center make the leisure experience more personal. Players can receive exclusive offers, weekly cashback, reload bonuses, free spins and individual rewards. Support is available 24/7 for account, payment, bonus and technical questions. Motherland Casino creates leisure without unnecessary switching: games, bonuses, payouts, support and account control are part of one system. We make digital casino entertainment convenient, lively and player-focused.
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Motherland Casino Leisure and Game Areas
+</h3>
+<ul>
+            <li>• Slots Lobby — the main area for slots, video slots, Starburst, Book of Dead, jackpot games and featured titles.</li>
+            <li>• Live Casino Lounge — roulette, blackjack, baccarat, poker and live dealer tables.</li>
+            <li>• Crash Games Zone — fast games with dynamic multipliers and short rounds.</li>
+            <li>• Table Games Area — digital blackjack, roulette, baccarat and poker.</li>
+            <li>• Jackpot Hub — games with jackpot mechanics and strong prize anticipation.</li>
+            <li>• Promotions Hub — welcome bonus, weekly reload, cashback, free spins and seasonal specials.</li>
+            <li>• VIP Area — personal rewards, exclusive offers and loyalty perks.</li>
+            <li>• Mobile Casino — access to games, payments and support from smartphone or tablet.</li>
+            <li>• Cashier Lounge — Visa, Mastercard, Interac e-Transfer, bank transfer, e-wallets and Bitcoin.</li>
+            <li>• Support Center — 24/7 live chat, email and phone support.</li>
+            <li>• Responsible Gaming Area — limits, breaks, self-exclusion and activity control.</li>
+            <li>• Seasonal Events Space — themed campaigns, giveaways, multipliers and tournament-style promotions.</li>
+        </ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faqBlock block">
+                    <h2 class="faqTitle title"><span>Frequently Asked Questions</span></h2>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="does_motherland_have_an_apprelated_casino_section"/><label
+                            class="faqLabel" for="does_motherland_have_an_apprelated_casino_section">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Does Motherland have an app-related casino section? </span></label>
+                        <div class="faqContent">
+                            <p>Yes, Motherland includes app-related casino information for guests who want a clear mobile-focused overview.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="what_is_the_motherland_app_information_focused_on"/><label
+                            class="faqLabel" for="what_is_the_motherland_app_information_focused_on">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> What is the Motherland app information focused on? </span></label>
+                        <div class="faqContent">
+                            <p>Our app information focuses on helping guests understand app-related casino access and user experience topics.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="how_does_the_motherland_app_section_help_guests"/><label
+                            class="faqLabel" for="how_does_the_motherland_app_section_help_guests">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> How does the Motherland app section help guests? </span></label>
+                        <div class="faqContent">
+                            <p>The app section helps our guests review mobile casino information in a simple and organized way.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="are_bonuses_and_games_connected_at_motherland"/><label
+                            class="faqLabel" for="are_bonuses_and_games_connected_at_motherland">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Are bonuses and games connected at Motherland? </span></label>
+                        <div class="faqContent">
+                            <p>Bonuses and games are both key online casino topics that our guests can explore through clear information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="footerContainer">
+        <div class="footerTop">
+            <div class="footerLogoContainer"><a href="https://motherland-online.com" aria-label="Main page"><img class="footer__logo"
+                                                                                                     src="_assets/images/1781776194-logo.svg" alt="" width="140"
+                                                                                                     height="48" /></a></div>
+            <div class="footerPay">
+                <div class="payBlock"><img class="payElementGrey"
+                                           src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                        class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                        alt="MasterCard" title="MasterCard in Motherland" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+                                           alt="Visa" /><img class="payElementColor"
+                                                             src="./assets/images/footer/payment/visa--color.svg" alt="Visa" title="Visa in Motherland" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+                                           alt="Neteller" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" title="Neteller in Motherland" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+                                           alt="Skrill" /><img class="payElementColor"
+                                                               src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" title="Skrill in Motherland" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+                                           alt="Bitcoin" /><img class="payElementColor"
+                                                                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" title="Bitcoin in Motherland" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+                                           alt="Litecoin" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" title="Litecoin in Motherland" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+                                           alt="Etherium" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" title="Etherium in Motherland" /></div>
+            </div>
+        </div>
+        <div class="footerMiddle">
+            <div class="footerOperator">
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                        alt="GPWA" title="GPWA in Motherland" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                        alt="Gamble Aware" title="Gamble Aware in Motherland" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                        alt="Game care" title="Game care in Motherland" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                        class="operatorElementColor"
+                        src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" title="Gambling Therapy in Motherland" />
+                </div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                        alt="Gamban" title="Gamban in Motherland" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                        alt="BetBlocker" title="BetBlocker in Motherland" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                        alt="ITech Labs" title="ITech Labs in Motherland" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                        alt="Ecogra" title="Ecogra in Motherland" /></div>
+            </div>
+        </div>
+        <div class="footerNavBlock">
+            <nav>
+                <ul class="nav__list--footer">
+                    <li class="footer__navItem"><a href="index">index</a></li>
+                    <li class="footer__navItem"><a href="app">App</a></li>
+                    <li class="footer__navItem"><a href="bonuses">Bonuses</a></li>
+                    <li class="footer__navItem"><a href="terms">Terms</a></li>
+                    <li class="footer__navItem"><a href="privacy">Privacy</a></li>
+                    <li class="footer__navItem"><a href="faq">FAQ</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="footerBottom">
+            <div class="footerBottomGroup">
+                <p class="footerBottomAge">18+</p>
+                <p class="footerBottomCopyright">Copyright © <span class="js-current-year"></span> Motherland </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var playButtonName = "#play-icon";
+    var informationOutlineName =
+        "#information-outline";
+    var topCasinoButtonText = "Claim Bonus";
+    var welcomeBonusText = "Welcome bonus";
+    var bonusDetailsButtonText = "";
+    var playNowText = "Play now";
+    var maximumAmountText = "";
+    var wagerText = "";
+    var bonusCodeText = "";
+    var depositText = "";
+    var casinoName = "Motherland";
+</script>
+
+</body>
+</html>
